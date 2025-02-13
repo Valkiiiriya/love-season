@@ -135,7 +135,7 @@ body h2 {
   position: relative;
 }
 
-.img_background_1 {
+/*.img_background_1 {
   background-image: url("https://mi.by/upload/medialibrary/fb8/vxfwxbevsd4c72ls5g7fknfz711qt6mq.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -145,7 +145,7 @@ body h2 {
   background-image: url("https://mi.by/upload/medialibrary/35a/plgtr36n1bt680odaxpl4qg65t6ggtmc.png");
   background-repeat: no-repeat;
   background-position: center center;
-}
+}*/
 
 /* При наведении на карточку - появляется тень */
 .card:hover {
