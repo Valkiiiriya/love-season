@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-  background: url("https://mi.by/upload/iblock/1f9/mmqjkmqrt2cec1gf2zkumznqo6yvxe1r.webp");
+  background: url("https://mi.by/upload/iblock/8dc/5ybr38d0cxy3ow1w0t2ipcsiu7qhltu8.png");
   background-size: 100% auto;
   background-repeat: repeat;
 }
@@ -47,14 +47,14 @@ body h1,
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #00363F;
+  background: #41108E;
   overflow: hidden;
-  border-radius: 15px;
-  width: 32%;
+  border-radius: 10px 15px;
+  width: 24%;
 }
 
 .nav_title div:hover {
-  background: linear-gradient(90deg, #B3812C 0%, #E0B949 25%, #B38938 50%, #BD8B3F 75.5%, #9F7028 100%);
+  background: #ff6700;
   color: #fff;
   transition: 0.5s;
 }
@@ -71,12 +71,11 @@ body h1,
   transition: 0.3s;
   width: 100%;
   height: 100%;
-  /*border: 2px solid #fff;*/
+  /*border: 2px solid #41108E;*/
   border-radius: 15px;
 }
 
 .nav_title a:hover {
-  color: #fff;
   transition: 0.5s;
 }
 
@@ -190,7 +189,7 @@ body h2 {
   position: absolute;
   bottom: 10px;
   left: 20px;
-  background: #BE2D2D;
+  background: #FA0552;
   border-radius: 8px;
   font-weight: 500;
   font-size: 16px;
@@ -202,7 +201,7 @@ body h2 {
   position: absolute;
   bottom: 10px;
   left: 20px;
-  background: #BE2D2D;
+  background: #FA0552;
   border-radius: 8px;
   font-weight: 500;
   font-size: 16px;
@@ -215,7 +214,7 @@ body h2 {
   position: absolute;
   top: 5px;
   left: 20px;
-  background: #BE2D2D;
+  background: #FA0552;
   border-radius: 4px;
   font-weight: 400;
   font-size: 12px;
@@ -257,10 +256,10 @@ body h2 {
 .card__price--discount {
   font-weight: 700;
   font-size: 25px;
-  border: 2px solid #BE2D2D;
+  border: 2px solid #61E2E8;
   border-radius: 12px;
   padding: 8px;
-  color: #BE2D2D;
+  color: #000;
 }
 
 .card__price--discount::before {
@@ -284,10 +283,10 @@ body h2 {
   font-weight: 700;
   font-size: 22px;
   text-align: center;
-  border: 2px solid #BE2D2D;
+  border: 2px solid #61E2E8;
   border-radius: 12px;
   padding: 8px;
-  color: #BE2D2D;
+  color: #000;
   width: 100%;
 }
 
@@ -350,7 +349,7 @@ body h2 {
   font-weight: 700;
   font-size: 18px;
   color: #fff;
-  background-color: #00363F;
+  background-color: #41108E;
   /*border: 2px solid #FF6700;*/
   text-align: center;
   border-radius: 12px;
@@ -371,7 +370,7 @@ body h2 {
 }
 
 .card__add:hover {
-  background: linear-gradient(90deg, #B3812C 0%, #E0B949 25%, #B38938 50%, #BD8B3F 75.5%, #9F7028 100%);
+  background: #ff6700;
   color: #fff;
   transition: 0.5s;
 }
@@ -733,10 +732,6 @@ body h2 {
   color: #ff6700;
 }
 
-.xmas_color {
-  color: #E0B949;
-}
-
-.xmas_color_red {
-  color: #BE2D2D;
+.love_color {
+  color: #41108E;
 }
