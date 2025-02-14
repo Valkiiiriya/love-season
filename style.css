@@ -303,10 +303,10 @@ body h2 {
 .card__price--gift {
   font-weight: 700;
   font-size: 22px;
-  border: 2px solid #BE2D2D;
+  border: 2px solid #61E2E8;
   border-radius: 12px;
   padding: 8px;
-  color: #BE2D2D;
+  color: #000;
 }
 
 .card__price--gift::before {
